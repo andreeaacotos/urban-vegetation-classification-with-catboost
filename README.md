@@ -9,7 +9,7 @@ This initiative focuses on leveraging advanced algorithms to enhance the accurac
 
 ## Overview 📊
 
-The notebook `catboost_Omdena.ipynb` includes the following steps:
+The notebook `catboost_Omdena-Frankfurt.ipynb` includes the following steps:
 
 1. **Environment Setup** ⚙️
    - Install necessary Python packages including `numpy`, `scikit-learn`, `CatBoost`, `rasterio`.
@@ -40,8 +40,12 @@ The notebook `catboost_Omdena.ipynb` includes the following steps:
 
    ### Key Results 📊
    - **Overall Accuracy:** 91% ✅  
-   - **Precision for Vegetation:** 98% 🌿  
-   - **Recall for Vegetation:** 91% 🔍  
+   - **Precision for Vegetation:** 98% 🌿
+   - **Precision for NON-Vegetation:** 68% 
+   - **Recall for Vegetation:** 91% 🔍
+   - **Recall for NON-Vegetation:** 92%
+   - **F1 score for Vegetation:** 94%
+   - **F1 score for NON-Vegetation:** 78%
    - **ROC-AUC Score:** 0.97 📈  
 
    The confusion matrix reveals that most vegetation areas are correctly classified, though some non-vegetation pixels are misclassified as vegetation. 
